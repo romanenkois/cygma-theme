@@ -11,7 +11,7 @@
     "url": "https://github.com/romanenkois/cygma-theme"
   },
   "engines": {
-    "vscode": "^1.98.0"
+    "vscode": "^1.50.0"
   },
   "categories": [
     "Themes"
