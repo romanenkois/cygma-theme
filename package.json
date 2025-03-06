@@ -16,7 +16,11 @@
   "categories": [
     "Themes"
   ],
-  
+  "keywords": [
+    "theme",
+    "dark theme",
+    "romanenko"
+  ],
   "contributes": {
     "themes": [
       {
