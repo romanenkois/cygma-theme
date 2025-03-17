@@ -377,6 +377,17 @@
         "fontStyle": "italic"
       }
     },
+    {
+      "scope": [
+        "entity.name.tag.html",
+        "string.quoted.double.html",
+        "string.quoted.single.html",
+
+      ],
+      "settings": {
+        "fontStyle": "none"
+      }
+    },
     //#endregion
 
     //#region <CSS>
