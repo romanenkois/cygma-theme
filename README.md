@@ -20,4 +20,4 @@ i **do not care** how the syntax highlight works on any other languages. it shou
 ## feedback & contributions
 spotted an issue? you can contact me by [**romanenkoisnot@gmail.com**](mailto:romanenkoisnot@gmail.com).
 
-anyway you can access sourse code at [**Public repository**](https://github.com/romanenkois/cygma-theme) and make a fork if you want 
+anyway you can access sourse code at [**Public repository**](https://github.com/romanenkois/cygma-theme) and make a fork if you want, just keep the licence and credentials of original creator
