@@ -260,20 +260,22 @@
         "meta.function-call",
         "keyword.control.flow",
         "keyword.control.conditional",
-		"keyword.control.loop",
-		"keyword.control.switch",
-		"keyword.control.trycatch",
-		"keyword.control.return",
-		"keyword.control.throw",
-		"keyword.control.break",
-		"keyword.control.continue",
-		"keyword.control.goto",
-		"keyword.control.else",
-		"keyword.control.elseif",
-		"keyword.control.default",
-		"keyword.control.case",
-		"keyword.control.finally",
-		"keyword.control.export",
+        "keyword.control.loop",
+        "keyword.control.switch",
+        "keyword.control.trycatch",
+        "keyword.control.return",
+        "keyword.control.throw",
+        "keyword.control.break",
+        "keyword.control.continue",
+        "keyword.control.goto",
+        "keyword.control.else",
+        "keyword.control.elseif",
+        "keyword.control.default",
+        "keyword.control.case",
+        "keyword.control.finally",
+        "keyword.control.export",
+        "keyword.control.import",
+        "keyword.control.from",
         "variable.language.this",
         "meta.import",
         "constant"
@@ -309,7 +311,7 @@
     },
 
     {
-      "scope": ["meta.function-call", "meta.parameters"],
+      "scope": ["meta.function-call", "meta.parameters", "string"],
       "settings": {
         "fontStyle": "italic"
       }
@@ -430,7 +432,12 @@
     //#region <JSON>
 
     {
-      "scope": ["support.type.property-name"],
+      "scope": [
+        "support.type.property-name",
+        "support.type.property-name.json",
+        "support.type.property-name.json.comments",
+        "string.json.comments",
+      ],
       "settings": {
         "foreground": "#E7288E"
       }
@@ -439,12 +446,16 @@
 
     //#region <Markdown>
 
-	{
-		"scope": ["markup.heading"],
-		"settings": {
-			"foreground": "#E7288E",
-		}
-	},
+    {
+      "scope": ["markup.heading"],
+      "settings": {
+        "foreground": "#E7288E"
+      }
+    },
+    //#endregion
+
+    //#region <Python>
+
     //#endregion
 
     //#region <Additional>
