@@ -442,6 +442,17 @@
         "foreground": "#E7288E"
       }
     },
+    {
+      "scope": [
+        "support.type.property-name",
+        "support.type.property-name.json",
+        "support.type.property-name.json.comments",
+        "string.json.comments",
+      ],
+      "settings": {
+        "fontStyle": "none"
+      }
+    },
     //#endregion
 
     //#region <Markdown>
