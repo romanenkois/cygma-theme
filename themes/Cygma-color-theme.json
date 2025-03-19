@@ -22,9 +22,9 @@
     "contrastBorder": "#5D656540",
     "debugToolBar.background": "#141414",
     "diffEditor.insertedTextBackground": "#4fd4cb4b",
-    "diffEditor.removedTextBackground": "#b408647b",
+    "diffEditor.removedTextBackground": "#F933197b",
     "dropdown.background": "#141414",
-    "dropdown.border": "#E2F6F510",
+    "dropdown.border": "#01fff210",
 
     "editor.background": "#141414",
     "editor.findMatchBackground": "#141414",
@@ -43,9 +43,9 @@
     "editorError.foreground": "#F93319",
     "editorGroup.border": "#14141430",
     "editorGroupHeader.tabsBackground": "#141414",
-    "editorGutter.addedBackground": "#640E3C60",
-    "editorGutter.deletedBackground": "#ffd725",
-    "editorGutter.modifiedBackground": "#E2F6F560",
+    "editorGutter.addedBackground": "#ffd725",
+    "editorGutter.deletedBackground": "#F93319",
+    "editorGutter.modifiedBackground": "#B40864",
     "editorHoverWidget.background": "#141414",
     "editorHoverWidget.border": "#E2F6F510",
     "editorIndentGuide.activeBackground1": "#141414",
@@ -131,7 +131,7 @@
     "notifications.background": "#141414",
     "notifications.foreground": "#E2F6F5",
     "panel.background": "#141414",
-    "panel.border": "#14141460",
+    "panel.border": "#5D656550",
     "panelTitle.activeBorder": "#5D6565",
     "panelTitle.activeForeground": "#E2F6F5",
     "panelTitle.inactiveForeground": "#E2F6F5",
@@ -168,7 +168,7 @@
     "sideBar.border": "#5D656550",
     "sideBar.foreground": "#E2F6F5",
     "sideBarSectionHeader.background": "#141414",
-    "sideBarSectionHeader.border": "#14141400",
+    "sideBarSectionHeader.border": "#5D656550",
     "sideBarSectionHeader.foreground": "#E2F6F5",
     "sideBarTitle.foreground": "#5D6565",
 
@@ -334,7 +334,10 @@
       }
     },
     {
-      "scope": ["variable.other.object.property", "variable.other.object"],
+      "scope": [
+        "variable.other.object.property",
+        "variable.other.object",
+      ],
       "settings": {
         "fontStyle": "none"
       }
@@ -343,13 +346,21 @@
 
     //#region <HTML>
     {
-      "scope": ["entity.name.tag.html"],
+      "scope": [
+        "entity.name.tag.html"
+        // "text.html.derivative"
+        // "meta.tag.structure.div.start.html",
+        // "text.html.derivative"
+      ],
       "settings": {
         "foreground": "#E7288E"
       }
     },
     {
-      "scope": ["entity.other.attribute-name.html"],
+      "scope": [
+        "entity.other.attribute-name.html",
+        "meta.tag.other.unrecognized.html.derivative"
+      ],
       "settings": {
         "foreground": "#FFD725"
       }
@@ -381,8 +392,7 @@
       "scope": [
         "entity.name.tag.html",
         "string.quoted.double.html",
-        "string.quoted.single.html",
-
+        "string.quoted.single.html"
       ],
       "settings": {
         "fontStyle": "none"
@@ -447,7 +457,7 @@
         "support.type.property-name",
         "support.type.property-name.json",
         "support.type.property-name.json.comments",
-        "string.json.comments",
+        "string.json.comments"
       ],
       "settings": {
         "foreground": "#E7288E"
@@ -458,7 +468,7 @@
         "support.type.property-name",
         "support.type.property-name.json",
         "support.type.property-name.json.comments",
-        "string.json.comments",
+        "string.json.comments"
       ],
       "settings": {
         "fontStyle": "none"
