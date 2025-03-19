@@ -78,7 +78,7 @@
 
     "focusBorder": "#E2F6F500",
 
-    "gitDecoration.conflictingResourceForeground": "#F93319",
+    "gitDecoration.conflictingResourceForeground": "#F93319ee",
     "gitDecoration.deletedResourceForeground": "#FFD725",
     "gitDecoration.ignoredResourceForeground": "#5D6565",
     "gitDecoration.modifiedResourceForeground": "#FFD725",
@@ -103,7 +103,7 @@
     "list.hoverForeground": "#E2F6F5",
     "list.inactiveSelectionBackground": "#14141430",
     "list.inactiveSelectionForeground": "#5D6565",
-    "list.warningForeground": "#F93319",
+    "list.warningForeground": "#f93319ee",
     "listFilterWidget.background": "#14141430",
     "listFilterWidget.noMatchesOutline": "#14141430",
     "listFilterWidget.outline": "#14141430",
