@@ -22,6 +22,7 @@
   "keywords": [
     "theme",
     "dark theme",
+    "light theme",
 
     "js theme",
     "css theme",
@@ -39,7 +40,17 @@
       {
         "label": "Cygma",
         "uiTheme": "vs-dark",
-        "path": "./themes/Cygma-color-theme.json"
+        "path": "./themes/Cygma-dark-color-theme.json"
+      },
+      {
+        "label": "Cygma Light",
+        "uiTheme": "vs",
+        "path": "./themes/Cygma-light-color-theme.json"
+      },
+      {
+        "label": "Cygma Light High Contrast",
+        "uiTheme": "vs",
+        "path": "./themes/Cygma-light-high-contrast-color-theme.json"
       }
     ]
   }

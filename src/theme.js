@@ -1,12 +1,18 @@
 // Cygma Theme — Theme Definition
-// Uses color variables from colors.js instead of hardcoded hex values.
+// Uses color variables from a palette passed at build time.
 
-const { palette: c, alpha } = require("./colors");
+const { alpha } = require("./colors");
 
-const theme = {
-  name: "Cygma",
+/**
+ * Build a theme object for a given palette and variant.
+ * @param {object} c         Palette (dark or light from colors.js)
+ * @param {"dark"|"light"} variant
+ */
+function buildTheme(c, variant) {
+  return {
+  name: `Cygma${variant && variant !== "" ? " " + variant : ""}`,
   $schema: "vscode://schemas/color-theme",
-  type: "dark",
+  type: variant,
   colors: {
     // Activity Bar
     "activityBar.background": c.bg,
@@ -502,6 +508,7 @@ const theme = {
       },
     },
   ],
-};
+  };
+}
 
-module.exports = theme;
+module.exports = buildTheme;

@@ -1,8 +1,7 @@
-// Left in name of memory as original cygma theme file
 {
-  "name": "Cygma",
+  "name": "Cygma High Contrast",
   "$schema": "vscode://schemas/color-theme",
-  "type": "dark",
+  "type": "High Contrast",
   "colors": {
     "activityBar.background": "#141414",
     "activityBar.border": "#14141460",
