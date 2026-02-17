@@ -10,6 +10,9 @@
     "type": "git",
     "url": "https://github.com/romanenkois/cygma-theme"
   },
+  "scripts": {
+    "build": "node build.js"
+  },
   "engines": {
     "vscode": "^1.50.0"
   },
