@@ -43,6 +43,11 @@
         "path": "./themes/Cygma-dark-color-theme.json"
       },
       {
+        "label": "Cygma High Contrast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cygma-dark-high-contrast-color-theme.json"
+      },
+      {
         "label": "Cygma Light",
         "uiTheme": "vs",
         "path": "./themes/Cygma-light-color-theme.json"

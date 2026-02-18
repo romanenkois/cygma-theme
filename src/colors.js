@@ -15,8 +15,8 @@ const dark = {
 };
 
 const darkHighContrast = {
-  bg:        "#141414",
-  fg:        "#E2F6F5",
+  bg:        "#0A0A0A",
+  fg:        "#F1FBFA",
   muted:     "#5D6565",
   darkGray:  "#2F3333",
   pink:      "#E7288E",
@@ -28,29 +28,29 @@ const darkHighContrast = {
 };
 
 const light = {
-  bg:        "#F1FBFA",
+  bg:        "#E2F6F5",
   fg:        "#141414",
   muted:     "#5D6565",
   darkGray:  "#C8C4C0",
   pink:      "#B40864",
   darkPink:  "#640E3C",
   deepPink:  "#470A2B",
-  teal:      "#28a49c",
-  yellow:    "#e0b700",
+  teal:      "#24948C",
+  yellow:    "#B89600",
   red:       "#F93319",
 };
 
 
 const lightHighContrast = {
   bg:        "#F1FBFA",
-  fg:        "#141414",
+  fg:        "#0A0A0A",
   muted:     "#5D6565",
   darkGray:  "#C8C4C0",
   pink:      "#B40864",
   darkPink:  "#640E3C",
   deepPink:  "#470A2B",
-  teal:      "#28a49c",
-  yellow:    "#e0b700",
+  teal:      "#24948C",
+  yellow:    "#B89600",
   red:       "#F93319",
 };
 
