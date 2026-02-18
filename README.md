@@ -1,6 +1,6 @@
-# cygma🔥 theme
+# cygma theme
 
-## dark contrasting theme for true cygmas🔥
+## dark contrasting theme for true cygmas 🔥🔥💯🔥🔥💯💯💥🔥💥🔥🔥🔥💢
 
 intended to be used for web-devs, optimized syntax highlighting for:
 - HTML
@@ -15,9 +15,9 @@ i **do not care** how the syntax highlight works on any other languages. it shou
 1. install extension
 2. open *Settings* > *Color Theme* (`Ctrl + K Ctrl + T`)
 3. select *Cygma*
-4. enjoy your eyebleeding experience 
+4. watch my code erupt in cygma of flames
 
 ## feedback & contributions
-spotted an issue? you can contact me by [**romanenkoisnot@gmail.com**](mailto:romanenkoisnot@gmail.com).
+spotted an issue? maybe you have some idea? or maybe you just want to hit author in the face? you can contact me by [**romanenkoisnot@gmail.com**](mailto:romanenkoisnot@gmail.com)
 
-anyway you can access sourse code at [**Public repository**](https://github.com/romanenkois/cygma-theme) and make a fork if you want, just keep the licence and credentials of original creator
+anyway you can see the sourse code at [**Public repository**](https://github.com/romanenkois/cygma-theme). If you want to make custom copy of it, you must keep the original licence and credentials of original creator
